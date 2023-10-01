@@ -72,7 +72,7 @@ Para sugestões, dúvidas ou contribuições, entre em contato conosco pelo e-ma
 
 <img alt="" src="https://github.com/BrandsDeveloper/CardapioOnline/blob/main/img/Acesse o nosso.png" width="500"> 
 
-Acesse o Cardápio, [clicando aqui](https://brandsdeveloper.github.io/CardapioOnline/)
+Acesse o Cardápio, <a href="https://brandsdeveloper.github.io/CardapioOnline/" target="_blank">clicando aqui</a>
 
 ### Conteúdo Complementar
 Visualize o [Aplicativo](https://github.com/BrandsDeveloper/PizzariaMadri_v2)
