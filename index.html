@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Cardápio Online - Pizzaria Madrid Guarulhos</title>
+    
+    <!-- FontAwsame -->
+    <script src="https://kit.fontawesome.com/498943cfa9.js" crossorigin="anonymous"></script>
+    <!-- BootsTrap V5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <script src="js/menu.json"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    
+    <!-- Menu -->
+    <header class="container position-sticky z-1">
+        
+        <nav class="navbar navbar-expand-md justify-content-center">
+
+            <div class="container-fluid">
+                <a href="index.html">
+                    <img src="img/logo_branco.png" alt="Logo Pizzaria Madrid" width="120">
+                </a>
+
+                <label class="d-md-none" for="bar">
+                    <i class="fa-solid fa-bars text-light fs-1"></i>
+                </label>
+                <input class="d-none" type="checkbox" id="bar">
+
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                
+                
+                <div id="nav" class="collapse navbar-collapse d-none d-md-block ">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link link-light mx-3" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link link-light mx-3" href="#entradas">Entradas</a></li>
+                        <li class="nav-item"><a class="nav-link link-light mx-3" href="#pizzas">Pizzas</a></li>
+                        <li class="nav-item"><a class="nav-link link-light mx-3" href="#sobremesas">Sobremesas</a></li>
+                    </ul>
+                </div>
+
+                <!-- Responsivo -->
+                <nav class="menu">
+
+                    <div class="position-modify">
+                        <label for="bar">
+                            <i class="fa-regular fa-circle-xmark text-light fs-1"></i>
+                        </label>
+                    </div>
+
+                    <div>
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item py-4"><a class="nav-link link-light" href="#home">Home</a></li>
+                            <li class="nav-item py-4"><a class="nav-link link-light" href="#entradas">Entradas</a></li>
+                            <li class="nav-item py-4"><a class="nav-link link-light" href="#pizzas">Pizzas</a></li>
+                            <li class="nav-item py-4"><a class="nav-link link-light" href="#sobremesas">Sobremesas</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+        </nav>
+
+
+    </header>
+
+    <!-- Conteudo Principal -->
+    <main>
+
+        <!-- Seta fixa para home -->
+        <section>
+            <div class="position-fixed seta fs-1">
+                <a href="#home"><i class="fa-solid fa-circle-arrow-up icon-size"></i></a>
+            </div>
+        </section>
+
+        <!-- Carrosel -->
+        <section id="home">
+
+            <div id="carousel_pizza" class="carousel slide">
+
+                <div class="carousel-indicators d-none">
+                    <button type="button" data-bs-target="#carousel_pizza" data-bs-slide-to="0" class="active" aia-corrent="true" arial-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel_pizza" data-bs-slide-to="1" arial-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel_pizza" data-bs-slide-to="2" arial-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="img"></div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="img"></div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="img"></div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev z-0"  type="button" data-bs-target="#carousel_pizza" data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+
+                </button>
+
+                <button class="carousel-control-next z-0"  type="button" data-bs-target="#carousel_pizza" data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+
+                </button>
+
+            </div>
+
+            <img class="bottom" src="img/order-top.png" alt="">
+            
+        </section>
+        
+        <!-- Itens de exibição -->
+        <section id="info">
+
+            <div class="container">
+                <div class="row p-person text-center">
+                
+                    <div class="col-md-4">
+                        <i class="fs-person fa-solid fa-utensils"></i>
+                        <p class="fs-4 fw-semibold fst-italic">Peça sua comida</p>
+                        <p class="fw-normal">Não perca tempo e peça agora mesmo a sua pizza.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <i class="fs-person fa-solid fa-truck"></i>
+                        <p class="fs-4 fw-semibold fst-italic">Entrega ou retirada</p>
+                        <p class="fw-normal">Estamos aqui para te atender da melhor forma.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <i class="fs-person fa-solid fa-pizza-slice"></i>
+                        <p class="fs-4 fw-semibold fst-italic">Receita Deliciosa</p>
+                        <p class="fw-normal">Com os melhores ingredientes e técnicas dos chefs</p>
+                    </div>
+                </div>
+            </div>
+
+            <img class="top" src="img/order-bottom.png" alt="">
+
+        </section>
+        
+        <!-- Entradas -->
+        <section id="entradas">
+
+            <div class="container">
+                
+                <h2>Entradas</h2>
+
+                <div class="row mt-5 text-center text-md-start justify-content-center justify-content-md-between add">
+                </div>
+
+
+            </div>
+
+            <img class="branco-bottom" src="img/chef-top-bg.png" alt="">
+
+        </section>
+        
+        <!-- Pizzas -->
+        <section id="pizzas">
+            
+            <div class="container">
+            
+                <h2>Pizzas</h2>
+            
+                <div class="row mt-5 text-center text-md-start justify-content-center justify-content-md-between add1">
+            
+                </div>
+            
+            </div>
+
+            <img class="branco-top" src="img/menu-bottom-bg.png" alt="">
+
+
+        </section>
+        
+        <!-- Sobremesas -->
+        <section id="sobremesas">
+
+            <div class="container">
+            
+                <h2>Sobremesas</h2>
+            
+                <div class="row mt-5 text-center text-md-start justify-content-center justify-content-md-between add2">
+            
+            
+                </div>
+            
+            </div>
+        </section>
+        
+        
+    </main>
+    
+    <!-- Rodapé -->
+    <footer class="bg-person">
+
+        <div class="row p-0 m-0 text-center justify-content-center py-4">
+
+            <div class="col-md-2 fs-3 d-flex justify-content-center">
+
+                <a href="#" class="link-light">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="link-light px-5">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </a>
+
+                <a href="#" class="link-light">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+            
+        </div>
+
+        <hr class="mt-3 text-light">
+        
+        <div class="container row mt-3 pb-4 h-auto mx-auto">
+
+            <div class="col-md-7 text-center text-light mx-auto">
+                <p class="m-0 d-inline-block">&copy; 2023 Copyright Pizzaria Madrid - Todos os direitos reservados</p>
+            </div>
+
+        </div>
+        
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

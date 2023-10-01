@@ -1,0 +1,134 @@
+{
+  "Entradas": [
+    {
+        "Titulo": "Bolinhos de Bacalhau",
+        "imagem": "./img/Bacalhau.webp",
+        "Descricao": "Esta porção de bolinhos crocantes por fora e macios por dentro é preparada com bacalhau de verdade, o que garante um sabor único. É perfeita para servir como aperitivo e desfrutar de momentos de descontração com a família e amigos.",
+        "Valor": "R$ 35,20"
+    },
+    {
+        "Titulo": "Porção de Bruschetta",
+        "imagem": "./img/Bruschetta.webp",
+        "Descricao": "Essa porção de bruschettas é feita com pão francês torrado, tomates italianos picados, queijo parmesão, manjericão e azeite de oliva. Uma combinação de sabores deliciosa para iniciar sua refeição.",
+        "Valor": "R$ 20,00"
+    },
+    {
+        "Titulo": "Porção de Croquetes",
+        "imagem": "./img/Croquetes.webp",
+        "Descricao": "Estes croquetes são preparados com ingredientes selecionados e temperos especiais para garantir um sabor único e delicioso. São perfeitos para acompanhar uma bebida e desfrutar de momentos de descontração.",
+        "Valor": "R$ 25,00"
+    },
+    {
+        "Titulo": "Porção de Rissóis",
+        "imagem": "./img/Rissóis.webp",
+        "Descricao": "Esta porção de rissóis é preparada com ingredientes selecionados e temperos especiais para garantir um sabor único e delicioso. É perfeita para servir como aperitivo e desfrutar de momentos de descontração com a família e amigos.",
+        "Valor": "R$ 18,00"
+    },
+    {
+        "Titulo": "Antepasto De Abobrinha",
+        "imagem": "./img/Abobrinha.webp",
+        "Descricao": "Esta porção de antepasto de abobrinha é preparada com ingredientes selecionados e temperos especiais para garantir um sabor único e delicioso. É perfeita para iniciar sua refeição e desfrutar de sabores surpreendentes.",
+        "Valor": "R$ 26,00"
+    },
+    {
+        "Titulo": "Palitinhos De Berinjela Frita",
+        "imagem": "./img/Berinjela.webp",
+        "Descricao": "Estes palitinhos de berinjela frita são preparados com ingredientes selecionados e temperos especiais para garantir um sabor único e delicioso. São perfeitos para acompanhar uma bebida e desfrutar de momentos de descontração.",
+        "Valor": "R$ 22,00"
+    }
+  ],
+  "Pizzas" : [
+    {
+        "Titulo": "Pepperoni",
+        "imagem": "./img/Pepperoni.webp",
+        "Descricao": "Esta pizza é preparada com molho de tomate, queijo mussarela e fatias de pepperoni, uma combinação clássica que agrada a todos os paladares.",
+        "Valor": "R$ 38,00"
+    },
+    {
+        "Titulo": "Napolitana",
+        "imagem": "./img/Napolitana.webp",
+        "Descricao": "Esta pizza é preparada com molho de tomate, queijo mussarela e azeitonas pretas fatiadas, uma combinação simples e saborosa que remete à tradição italiana.",
+        "Valor": "R$ 35,00"
+    },
+    {
+        "Titulo": "Portuguesa",
+        "imagem": "./img/Portuguesa.webp",
+        "Descricao": "Esta pizza é preparada com molho de tomate, queijo mussarela, presunto, ovos, cebola, pimentão e azeitonas verdes, uma combinação de sabores típicos da culinária portuguesa.",
+        "Valor": "R$ 35,00"
+    },
+    {
+        "Titulo": "Calabresa & Requeijão",
+        "imagem": "./img/Calabresa.webp",
+        "Descricao": "Esta pizza é preparada com molho de tomate, queijo mussarela, calabresa fatiada e requeijão cremoso, uma combinação de sabores marcantes e irresistíveis.",
+        "Valor": "R$ 43,00"
+    },
+    {
+        "Titulo": "Queijo Hot",
+        "imagem": "./img/Queijo.webp",
+        "Descricao": "Esta pizza é preparada com molho de tomate, queijo mussarela, pimenta jalapeño fatiada e cream cheese, uma combinação surpreendente para os amantes de pimenta.",
+        "Valor": "R$ 45,00"
+    },
+    {
+        "Titulo": "Marguerita",
+        "imagem": "./img/Marguerita.webp",
+        "Descricao": "Esta pizza é preparada com molho de tomate, queijo muss",
+        "Valor": "R$ 39,00"
+    },
+    {
+        "Titulo": "Cogumelos Vegetarianos",
+        "imagem": "./img/Cogumelo.webp",
+        "Descricao": "Pizza com cogumelos frescos, cebola roxa e pimentões coloridos fatiados, finalizada com queijo mussarela derretido e azeitonas pretas. Uma opção deliciosa para quem aprecia uma pizza vegetariana.",
+        "Valor": "R$ 48,00"
+    },
+    {
+        "Titulo": "Queijo e Tomate",
+        "imagem": "./img/QueijoTomate.webp",
+        "Descricao": "Pizza clássica com molho de tomate, queijo mussarela derretido e fatias de tomate fresco. O sabor simples, mas sempre delicioso, agrada a todos os paladares.",
+        "Valor": "R$ 35,00"
+    },
+    {
+        "Titulo": "Frango com Cogumelos",
+        "imagem": "./img/Frango.webp",
+        "Descricao": "Pizza com frango desfiado, cogumelos frescos e cebola roxa fatiada, coberta com queijo mussarela derretido e um toque de molho de tomate. Perfeita para quem busca uma opção mais leve, mas com muito sabor.",
+        "Valor": "R$ 50,00"
+    }
+  ],
+  "Sobremesas" : [
+    {
+        "Titulo": "Pizza de Banana com Canela",
+        "imagem": "./img/Branco.webp",
+        "Descricao": "Essa pizza doce é uma deliciosa combinação de banana, canela e chocolate branco gratinado. Perfeita para compartilhar com amigos e família, ela é uma ótima opção para aqueles que adoram sobremesas diferentes e saborosas.",
+        "Valor": "R$ 25,00"
+    },
+    {
+        "Titulo": "Pizza de M&Ms",
+        "imagem": "./img/MeMs.webp",
+        "Descricao": "A massa crocante e saborosa da pizza é a base perfeita para uma cobertura irresistível de chocolate cremoso e pedacinhos coloridos de M&Ms. Cada mordida é uma explosão de sabor, combinando o delicioso sabor do chocolate com a crocância dos M&Ms. Uma sobremesa divertida e deliciosa que vai agradar a todos os amantes de chocolate e doces!",
+        "Valor": "R$ 23,00"
+    },
+    {
+        "Titulo": "Pizza de Morango",
+        "imagem": "./img/Morango.webp",
+        "Descricao": "Feita com uma massa crocante e coberta com deliciosos morangos, essa pizza doce é uma sobremesa clássica que agrada a todos. É uma ótima opção para quem quer algo doce, mas não tão pesado.",
+        "Valor": "R$ 25,00"
+    },
+    {
+        "Titulo": "Esfihão de Chocolate Branco com Oreo",
+        "imagem": "./img/Oreo.webp",
+        "Descricao": "Se você é fã de Oreo, não pode deixar de experimentar essa esfiha doce. Feita com a famosa bolacha, ela é uma sobremesa deliciosa e diferente.",
+        "Valor": "R$ 17,00"
+    },
+    {
+        "Titulo": "Esfihão Doce de Sonho de Valsa",
+        "imagem": "./img/Sonho.webp",
+        "Descricao": "Essa esfiha doce é uma verdadeira tentação para os amantes de chocolate. Feita com o famoso bombom Sonho de Valsa, ela é uma opção deliciosa e única.",
+        "Valor": "R$ 16,00"
+    },
+    {
+        "Titulo": "Esfihão Doce de Prestígio",
+        "imagem": "./img/Prestigio.webp",
+        "Descricao": "Essa esfiha doce é uma combinação perfeita de chocolate e coco. Com uma massa fofinha e recheio cremoso, ela é uma sobremesa que agrada a todos os paladares.",
+        "Valor": "R$ 16,00"
+    }
+  ]
+}

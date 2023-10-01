@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: "Amsterdam Four";
+    font-weight: 400;
+    font-style: normal;
+    src: url('../font/amsterdam-four-ttf.ttf');
+}
+
+$colorPrimary: #F28705;
+$colorBlack: #292827;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+    font-family: "Amsterdam Four", sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+
+    margin-bottom: -105px;
+
+    nav div>ul>li>a {
+        font-size: 1.05rem !important;
+    }
+
+    @media (max-width:768px) {
+        max-width: 100% !important;
+    }
+
+    .menu {
+        background-color: #292827;
+        width: 90%;
+        height: 100vh;
+        left: -100%;
+        z-index: 5;
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.5s;
+    }
+
+    #bar:checked~nav.menu {
+        left: 0%;
+    }
+
+    .position-modify {
+        position: absolute;
+        top: 35px;
+        right: 40px;
+    }
+
+}
+
+main {
+
+    h2 {
+        margin: 100px 0px !important;
+        font-size: 50px;
+
+        @media (max-width:767px) {
+            text-align: center;
+        }
+    }
+
+    h3 {
+        color: $colorPrimary;
+        transition: all 0.5s;
+        cursor: pointer;
+        width: 200px;
+        font-size: 18px;
+
+        &:hover {
+            color: #914800;
+        }
+
+        @media (max-width:767px) {
+            width: initial;
+        }
+    }
+}
+
+main .icon-size {
+    @media(max-width: 768px) {
+        font-size: 1.6em;
+    }
+}
+
+main .seta {
+    z-index: 3;
+    right: 30px;
+    bottom: 30px;
+
+    >a {
+        color: #EB2E00;
+    }
+}
+
+main #carousel_pizza {
+    margin-bottom: -180px;
+}
+
+main .p-person {
+    padding-top: 8em;
+    padding-bottom: 8em;
+}
+
+main #carousel_pizza div{
+    
+    .img {
+    width: 100%;
+    height: 110vh;
+    background: url(../img/Slide1.svg) no-repeat center;
+    background-size: cover;
+    }
+
+    :nth-of-type(2)>.img {
+        width: 100%;
+        height: 110vh;
+        background: url(../img/Slide2.svg) no-repeat center;
+        background-size: cover;
+    }
+
+    :nth-of-type(3)>.img {
+        width: 100%;
+        height: 110vh;
+        background: url(../img/Slide3.svg) no-repeat center;
+        background-size: cover;
+    }
+
+}
+
+main #info {
+    background-color: #FF8800;
+    position: relative;
+    z-index: 0;
+
+    .fs-person {
+        font-size: 50px;
+        margin-bottom: 15px;
+        transition: all 0.5s;
+    }
+
+    &:hover>.fs-person {
+        color: #F2F2F2;
+    }
+
+}
+
+.w-modify {
+    @media (max-width:768px) {
+        width: 75%;
+    }
+}
+
+main #entradas {
+    padding-top: 15em;
+}
+
+main section {
+
+    >img.bottom {
+        position: relative;
+        width: 100%;
+        z-index: 0;
+    }
+
+    >img.top {
+        position: relative;
+        width: 100%;
+        margin-bottom: -8%;
+        z-index: 1;
+    }
+}
+
+
+main section img.branco-bottom {
+    margin-top: -40px;
+    margin-bottom: -200px;
+    width: 100%;
+
+    @media(min-width:768px) and (max-width:1256px) {
+        margin-bottom: -151px;
+    }
+
+    @media (max-width:767px) {
+        margin-bottom: -60px;
+    }
+}
+
+main #pizzas {
+    background-color: $colorBlack;
+    padding-top: 200px;
+    color: white;
+}
+
+main div.row>div img.image {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.5s;
+
+    &:hover {
+        transform: translate(0, -5%);
+    }
+
+    @media (max-width:767px) {
+        margin-bottom: 10px;
+        width: 70%;
+    }
+
+}
+
+main #pizzas img.branco-top {
+    margin-bottom: -3px;
+    margin-top: 7%;
+    width: 100%;
+}
+
+main div div>p.desc {
+    margin-top: 15px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+}
+
+main div div>p.valor {
+    font-size: 20px;
+}
+
+
+footer {
+    margin-top: 5%;
+}
+
+footer.bg-person {
+    background-color: $colorBlack;
+}
+
+footer hr {
+    width: 70%;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+
+
+/* ------------------------------ Fim Page Cardápio ---------------------------- */
+
+#menu section #bar {
+    margin-top: 2%;
+    height: 50px;
+
+    .border-person {
+        border-color: #f2870580 !important;
+
+        a.icon-row {
+            color: $colorPrimary;
+            transition: all 0.5s;
+
+            &:hover {
+                color: #914800;
+            }
+        }
+    }
+
+    @media (max-width:768px) {
+        height: 5vh;
+    }
+}
+
+#menu section .text-person {
+    color: $colorPrimary;
+    padding-right: 18%;
+}
+
+#menu section img {
+    border-radius: 20px;
+    width: 100%;
+
+    @media (max-width: 768px) {
+        margin-bottom: 20px;
+    }
+}
